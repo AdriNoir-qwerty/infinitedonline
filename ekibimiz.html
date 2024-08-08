@@ -110,7 +110,7 @@ window.addEventListener( "message", function( e ) {
 			iframe.id = 'wpcom_request_access_iframe';
 			iframe.setAttribute( 'scrolling', 'no' );
 			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
-			iframe.src = 'https://r.resimlink.com/PhuFr-C8.png' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
 
 			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
 
@@ -650,4 +650,4 @@ Yazma Alanı Değil
 				height: 0 !important;
 				width: 0 !important;
 				overflow: hidden;
-			}</style><img src="https://pixel.wp.com/g.gif?blog=227155332&amp;v=wpcom&amp;tz=3&amp;user_id=0&amp;subd=INFINIT-EDorg&amp;host=infinit-ed.glitch.me&amp;ref=&amp;rand=0.01929624747955261" alt="" id="wpstats"><iframe scrolling="no" id="wpcom_remote_login_key" src="https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key&amp;origin=aHR0cHM6Ly9jYXBhbXVuMjQub3Jn&amp;wpcomid=227155332&amp;time=1719598019" style="display: none;"></iframe><script src="https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231122" defer=""></script></body></html>
+			}</style><img src="https://r.resimlink.com/PhuFr-C8.png" alt="" id="wpstats"><iframe scrolling="no" id="wpcom_remote_login_key" src="https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key&amp;origin=aHR0cHM6Ly9jYXBhbXVuMjQub3Jn&amp;wpcomid=227155332&amp;time=1719598019" style="display: none;"></iframe><script src="https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231122" defer=""></script></body></html>
